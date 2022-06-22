@@ -434,6 +434,7 @@ input,textarea,select {
     transition: all 0.3s ease;
 }
 
+
 .home .intro .social-links a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -714,10 +715,37 @@ input,textarea,select {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner .icon .fa-solid {
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: red;
+
+}
+
+.service .service-item .service-item-inner .icon .fa-brands {
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: red;
+  font-weight: 600;
+}
 
 .service .service-item .service-item-inner:hover .icon .fa {
     font-size: 25px;
     color: #ffffff;
+}
+
+.service .service-item .service-item-inner:hover .icon .fa-solid {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.service .service-item .service-item-inner:hover .icon .fa-brands {
+  font-size: 25px;
+  color: #ffffff;
 }
 
 .service .service-item .service-item-inner h4 {
@@ -774,6 +802,22 @@ input,textarea,select {
     max-width: 33.33%;
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;    
+}
+
+.portfolio .portfolio-item h1 {
+  margin-top: 10px;
+}
+
+.portfolio .portfolio-item h1 a {
+  color: #302e4d;
+  padding: 5px 10px;
+  transition: all .4s ease;
+  border-radius: 4px;
+}
+
+.portfolio .portfolio-item h1 a:hover {
+  background-color: #302e4d;
+  color: #fff;
 }
 
 .portfolio .portfolio-item.hide {

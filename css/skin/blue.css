@@ -9,7 +9,7 @@
 
 }
 
-.contact .contact-info-item .icon .fa,
+.contact .contact-info-item .icon .fa ,
 .blog .blog-item-inner .blog-info .blog-tags a,
 .lightbox .lightbox-controls .prev-item .fa, 
 .lightbox .lightbox-controls .next-item .fa, 
@@ -17,6 +17,10 @@
 body.dark .portfolio .portfolio-filter button.active,
 .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
+.service .service-item .service-item-inner .icon .fa-brands,
+.service .service-item .service-item-inner .icon .fa-solid,
+
+
 .about .about-content .about-text h3 span,
 body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,

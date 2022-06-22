@@ -17,6 +17,8 @@
 body.dark .portfolio .portfolio-filter button.active,
 .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
+.service .service-item .service-item-inner .icon .fa-brands,
+.service .service-item .service-item-inner .icon .fa-solid,
 .about .about-content .about-text h3 span,
 body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
