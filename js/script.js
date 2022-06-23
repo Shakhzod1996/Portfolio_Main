@@ -5,6 +5,8 @@ window.addEventListener("load", function(){
     setTimeout(function(){
         document.querySelector(".preloader").style.display="none";
     },1000)
+
+
 })
 
 //Portfolio Item Filter
@@ -173,6 +175,11 @@ const lightbox=document.querySelector(".lightbox"),
         }
     }
 
+    const currentYear = new Date().getFullYear()
+const myYearEl = document.querySelector(".my-year")
+
+myYearEl.innerHTML = currentYear - 1996 
+  
     window.replainSettings = { id: '62fe0c12-67cb-43ea-9adc-f695be55aa89' };
 (function(u){var s=document.createElement('script');s.async=true;s.src=u;
 var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
