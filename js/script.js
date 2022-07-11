@@ -161,7 +161,7 @@ const lightbox=document.querySelector(".lightbox"),
     })
 
     const navTogglerBtn=document.querySelector(".nav-toggler"),
-       aside=document.querySelector(".aside");
+      aside=document.querySelector(".aside");
 
     navTogglerBtn.addEventListener("click",asideSectionTogglerBtn)
     
