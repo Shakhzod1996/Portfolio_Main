@@ -35,7 +35,7 @@ submitButton.addEventListener("click", (e) => {
             };
         });
     }
-    alertify.set('notifier','position', 'top-right');
+    alertify.set("notifier", "position", "top-right");
 
     if (
         inputMessage.value &&
@@ -43,8 +43,7 @@ submitButton.addEventListener("click", (e) => {
         inputName.value &&
         inputSabject.value
     ) {
-        
-        fetch("http://5.161.134.59:1996/message", {
+        fetch("https://shakhzod.roundedteam.uz/message", {
             method: "POST",
             headers: {
                 Accept: "application.json",
@@ -57,22 +56,20 @@ submitButton.addEventListener("click", (e) => {
                 message: inputMessage.value,
             }),
             cache: "default",
-        }).then(() => {
-            alertify.success("Message successfully sent!");
-            inputMessage.value = ""
-            inputEmail.value =""
-            inputName.value =""
-            inputSabject.value =""
-        }).then(() => {
-
-        }).catch((err) => {
-            alertify.error(err.message);
-
         })
+            .then(() => {
+                alertify.success("Message successfully sent!");
+                inputMessage.value = "";
+                inputEmail.value = "";
+                inputName.value = "";
+                inputSabject.value = "";
+            })
+            .then(() => {})
+            .catch((err) => {
+                alertify.error(err.message);
+            });
     } else {
-
         alertify.error("Please fill out fields");
-
     }
 });
 
